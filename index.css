@@ -1,0 +1,41 @@
+body
+{
+ background: url(back.jpg);
+  background-repeat: no-repeat;
+background-attachment: fixed;
+  background-size: cover;
+font-family: "Trirong", serif;
+text-align:center;
+border-style:solid;
+padding:15px;
+}
+#ans
+{
+font-family: "Trirong", serif;
+font-weight:bold;
+text-align:center;
+border-radius:10px;
+width:300px;
+height:40px;
+font-size:18px;
+
+}
+#button
+{
+font-family: "Trirong", serif;
+font-weight:bold;
+text-align:center;
+width:80px;
+height:40px;
+border-radius:10px;
+padding:8 px;
+ background-color: white;
+}
+#button:hover
+{
+color:white;
+font-weight:bold;
+ background-color: lime;
+
+
+}

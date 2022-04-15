@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+  <meta charset="utf-8">
+<title>Calculator</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+<script src="caljs.js"></script>
+<style>
+TABLE
+{
+transform: translate(350px, 0);
+  border:3px double black;
+  padding:30px 20px 25px 18px;
+}
+td
+{
+padding:6px;
+}
+#button:hover
+{
+color:black;
+}
+</style>
+</head>
+<body >
+<h1>Calculator</h1>
+<h4>The validation will be done for the following things:Division by Zero , Empty Expression and overflow condition</h4>
+<TABLE>
+         <tr>
+ <td colspan="4" ><input type="text" id="ans"/></td>
+
+</tr>
+          <tr>
+            <td><input type="button" value="1" id="button" onclick="show('1')"/> </td>
+            <td><input type="button" value="2" id="button" onclick="show('2')"/> </td>
+            <td><input type="button" value="3" id="button" onclick="show('3')"/> </td>
+            <td><input type="button" value="/" id="button"  onclick="show('/')"/> </td>
+         </tr>
+           <tr>
+            <td><input type="button" value="4" id="button" onclick="show('4')"/> </td>
+            <td><input type="button" value="5" id="button"  onclick="show('5')"/> </td>
+            <td><input type="button" value="6" id="button" onclick="show('6')"/> </td>
+            <td><input type="button" value="-" id="button" onclick="show('-')"/> </td>
+         </tr>
+         <tr>
+            <td><input type="button" value="7" id="button" onclick="show('7')"/> </td>
+            <td><input type="button" value="8" id="button" onclick="show('8')"/> </td>
+            <td><input type="button" value="9" id="button"  onclick="show('9')"/> </td>
+            <td><input type="button" value="+" id="button" onclick="show('+')"/> </td>
+         </tr>
+         <tr>
+            <td><input type="button" value="Clear" id="button" onclick="remove()"/> </td>
+            <td><input type="button" value="0" id="button" onclick="show('0')"/> </td>
+            <td><input type="button" value="Ans" id="button"   onclick="calculate_validate()"/> </td>
+            <td><input type="button" value="*" id="button" onclick="show('*')"/> </td>
+         </tr>
+</TABLE>
+</body>
+<HTML>
